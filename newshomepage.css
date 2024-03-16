@@ -1,0 +1,131 @@
+[data-theme="light"]{
+    body{
+      background-color: white;
+      color: black;
+    }
+    .bg{
+        background-color: none;
+    }
+    button{
+        background-color: black;
+        color: white;
+        border-color:black ;
+    }
+    .right-side-NEW{
+        background-color: black;
+        color: white;
+    }
+    hr{
+        background-color: white;
+        width: 90%;
+        height: 2px;
+      
+    }
+    .flex a{
+        color: black;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        text-decoration: none;
+        color: orange;
+        cursor: pointer;
+    }
+    }
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+[data-theme="dark"]{
+    body{
+      background-color: black;
+      color: white;
+    }
+    .bg{
+        background-color: white;
+    }
+    button{
+        background-color: white;
+        color: black;
+       border-color: white;
+       
+    }
+    .right-side-NEW{
+        background-color: white;
+        color: black;
+    }
+    hr{
+        background-color: black;
+        width: 90%;
+        height: 2px;
+      
+    }
+    .flex a{
+        color: white;
+    }
+    a{
+        color: black;
+        
+    }
+    a:hover{
+        text-decoration: none;
+        color: orange;
+        cursor: pointer;
+    }
+ 
+}
+
+       body{
+        font-weight: bolder;
+        padding-bottom: 50px;
+       }
+        ul{
+                text-align: right;
+            }
+            
+         a:hover{
+                border-bottom: 3px solid black;
+            }
+         li{
+                margin-right: 20px;
+            
+            }
+           
+        .logo{
+            margin-left: 20px;
+        }
+        .bg{
+            margin-top: 30px;
+        }
+
+        button{
+            border-radius: 5px;
+        }
+        .flex{
+            display: flex;
+
+        }
+        .flex  img{
+         height: 200px;
+        }
+        .flex a:hover{
+            color: red;
+            text-decoration: none;
+        }
+        @media (max-width:425px) {
+            .right-side-NEW{
+                margin-top: 20px;
+            }
+
+        }
+        @media (min-width:992px) and (max-width:1199.98px){
+           ul{
+            margin-left:400px;
+           }
+        }
+        @media (min-width:1200px) {
+           ul{
+            margin-left:550px;
+           }}
